@@ -1,6 +1,6 @@
 # vue-vuex-router
 
-> A Project for Vue 2.x Vuex vue-router
+> A Project template for Vue 2.x + Vuex + vue-router
 
 ## Build Setup
 
@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8880
 npm run dev
 
 # build for production with minification

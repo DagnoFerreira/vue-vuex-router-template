@@ -1,19 +1,22 @@
 <template>
   <div>
-    <div class="index">This is Index Page!</div>
-    <h1>Vuex Demo</h1>
-    <section>
-      count:  {{count}}
-      <button @click="increment()">+</button>
-      <button @click="decrement()">-</button>
-    </section>
+    <div class="index">
+      <h1>Vuex Demo</h1>
+      <section>
+        count: {{count}}
+        <button @click="increment()">+</button>
+        <button @click="decrement()">-</button>
+      </section>
+    </div>
   </div>
 </template>
 <style scoped lang="scss">
   .index {
-    background: #999;
     color: #333;
     font-size: 16px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
   }
 </style>
 <script>
@@ -27,7 +30,7 @@
       count: state => state.count
     }),
 
-    methods:{
+    methods: {
       increment(){
         this.$store.commit('increment');
       },
