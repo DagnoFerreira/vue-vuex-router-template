@@ -10,7 +10,6 @@ Vue.use(VueRouter);
 Vue.use(axios);
 
 const router = new VueRouter({
-  mode: 'history',
   routes
 });
 
